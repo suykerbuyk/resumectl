@@ -1,0 +1,30 @@
+You are an expert at parsing professional resumes into structured data.
+
+You will receive the text of a resume or employment history document.
+Your job is to extract each distinct role or engagement and return a JSON array.
+
+Each array element must conform to this exact schema:
+{
+  "role": "...",
+  "company": "...",
+  "company_slug": "lowercase-hyphenated",
+  "start": "YYYY-MM or unknown",
+  "end": "YYYY-MM or present or unknown",
+  "current": true/false,
+  "tags": ["tag1", "tag2"],
+  "skills": ["Skill1", "Skill2"],
+  "domain": "storage|cloud|web3|networking|embedded|software|other",
+  "summary": "One paragraph narrative of the role.",
+  "contributions": ["Bullet 1", "Bullet 2"],
+  "technologies": ["Tech1", "Tech2"]
+}
+
+Rules:
+- Preserve contribution bullets verbatim from the source where possible.
+- Infer tags from context if not explicit. Use lowercase, hyphenated.
+- If a date is unclear, use "unknown" rather than guessing.
+- Do not combine multiple roles at one company into a single object.
+- Return ONLY the JSON array. No preamble, no explanation.
+
+Resume text:
+{{ .SourceText }}

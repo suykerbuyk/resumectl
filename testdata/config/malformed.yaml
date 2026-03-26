@@ -1,0 +1,3 @@
+vault:
+  path: [invalid
+  this is not: valid: yaml: {{{}}}

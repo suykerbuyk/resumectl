@@ -1,0 +1,30 @@
+vault:
+  path: /tmp/test-vault
+  backup_on_write: true
+  git:
+    auto_commit: true
+    commit_on_ingest: true
+    commit_on_coach: true
+    commit_on_build: true
+
+providers:
+  default_for_task:
+    decompose: claude
+    extract_job: gemini
+  claude:
+    api_key: test-key-123
+    default_model: claude-sonnet-4-6
+  gemini:
+    api_key: test-gemini-key
+    default_model: gemini-2.0-flash
+
+export:
+  default_format: docx
+  pandoc_path: pandoc
+
+fetch:
+  user_agent: "test-agent/1.0"
+  chromedp_timeout_seconds: 10
+
+coach:
+  session_notes_dir: sessions/

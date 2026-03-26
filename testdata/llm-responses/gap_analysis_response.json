@@ -1,0 +1,15 @@
+{
+  "overall_score": 0.78,
+  "narrative": "Strong match for infrastructure skills. Minor gaps in Rust and eBPF.",
+  "strong_matches": [
+    {"skill": "Go", "evidence": ["experience/seagate.md", "experience/cloudscale.md"], "confidence": 0.95},
+    {"skill": "distributed-systems", "evidence": ["experience/seagate.md"], "confidence": 0.9}
+  ],
+  "partial_matches": [
+    {"skill": "Kubernetes", "evidence": ["experience/cloudscale.md"], "confidence": 0.7, "gap_note": "Production experience but not at massive scale"}
+  ],
+  "gaps": [
+    {"skill": "Rust", "required": false, "suggestion": "Have you used Rust in any personal projects or prototypes?"},
+    {"skill": "eBPF", "required": false, "suggestion": "Have you used bpftrace or eBPF for performance analysis?"}
+  ]
+}

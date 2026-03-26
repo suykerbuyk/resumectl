@@ -1,0 +1,9 @@
+{
+  "question": "Have you used Rust in any capacity — personal projects, OSS contributions, prototypes, or learning exercises?",
+  "context": "The role lists Rust as a preferred skill. Your strong C++ and Go background suggests you could pick up Rust quickly, but documenting any existing exposure strengthens your application.",
+  "suggestion": {
+    "target_file": "experience/2023-01-cloudscale-staff-engineer.md",
+    "update_type": "add_skill",
+    "content": "Rust"
+  }
+}

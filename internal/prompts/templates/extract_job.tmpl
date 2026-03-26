@@ -1,0 +1,27 @@
+You are an expert technical recruiter and job posting analyst.
+
+Parse the following job posting and extract structured information.
+Return ONLY valid JSON conforming to this schema. No explanation.
+
+Schema:
+{
+  "title": "...",
+  "company": "...",
+  "company_slug": "lowercase-hyphenated",
+  "location": "...",
+  "seniority": "ic1|ic2|ic3|ic4|ic5|ic6|staff|principal|distinguished|director|vp",
+  "domain": "...",
+  "required_skills": ["skill1"],
+  "preferred_skills": ["skill1"],
+  "culture_signals": ["signal1"],
+  "compensation": { "range_low": 0, "range_high": 0, "currency": "USD", "equity": true },
+  "summary": "2-3 sentence summary.",
+  "key_requirements": {
+    "must_have": ["requirement 1"],
+    "nice_to_have": ["requirement 1"]
+  },
+  "raw_text": "...original posting text..."
+}
+
+Job posting:
+{{ .PostingText }}

@@ -1,0 +1,18 @@
+{
+  "title": "Staff Software Engineer — Infrastructure",
+  "company": "Acme Corp",
+  "company_slug": "acme-corp",
+  "location": "Remote",
+  "seniority": "staff",
+  "domain": "infrastructure",
+  "required_skills": ["Go", "Kubernetes", "distributed-systems"],
+  "preferred_skills": ["Rust", "NVMe"],
+  "culture_signals": ["high-performance", "distributed-team"],
+  "compensation": {"range_low": 200000, "range_high": 260000, "currency": "USD", "equity": true},
+  "summary": "Staff-level infrastructure role focused on distributed storage systems.",
+  "key_requirements": {
+    "must_have": ["5+ years Go experience", "Kubernetes at scale"],
+    "nice_to_have": ["Storage systems background"]
+  },
+  "raw_text": "We are hiring a Staff Software Engineer for infrastructure."
+}

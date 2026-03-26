@@ -1,0 +1,15 @@
+/CLAUDE.md
+/commit.msg
+/.claude/
+
+# Build artifacts
+/bin/
+coverage.out
+
+# Generated documentation
+/man/
+/docs/cli/
+
+# User config with real API keys (legacy and XDG paths)
+.resumectl.yaml
+config.yaml

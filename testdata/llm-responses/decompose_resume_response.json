@@ -1,0 +1,54 @@
+[
+  {
+    "role": "Principal Storage Architect",
+    "company": "Seagate Technology",
+    "company_slug": "seagate",
+    "start": "2021-03",
+    "end": "2024-06",
+    "current": false,
+    "tags": ["storage", "nvme", "architecture"],
+    "skills": ["NVMe", "Go", "C++", "SPDK"],
+    "domain": "storage",
+    "summary": "Led storage architecture initiatives focusing on NVMe and distributed systems.",
+    "contributions": [
+      "Architected next-gen NVMe storage platform handling 2M IOPS.",
+      "Drove ZNS adoption across 3 product lines.",
+      "Reduced P99 read latency by 40%."
+    ],
+    "technologies": ["NVMe", "ZNS", "SPDK", "Go", "C++"]
+  },
+  {
+    "role": "Senior Storage Engineer",
+    "company": "Intel Corporation",
+    "company_slug": "intel",
+    "start": "2019-06",
+    "end": "2021-02",
+    "current": false,
+    "tags": ["storage", "firmware"],
+    "skills": ["C", "NVMe", "SPDK"],
+    "domain": "storage",
+    "summary": "Developed firmware and low-level storage drivers for Intel SSDs.",
+    "contributions": [
+      "Implemented NVMe command set extensions for enterprise SSDs.",
+      "Optimized SPDK performance achieving 30% throughput improvement."
+    ],
+    "technologies": ["NVMe", "SPDK", "C", "Linux"]
+  },
+  {
+    "role": "Staff Engineer",
+    "company": "CloudScale Inc",
+    "company_slug": "cloudscale",
+    "start": "2023-01",
+    "end": "present",
+    "current": true,
+    "tags": ["cloud", "infrastructure", "kubernetes"],
+    "skills": ["Go", "Kubernetes", "AWS"],
+    "domain": "cloud",
+    "summary": "Leading infrastructure platform team building cloud-native solutions.",
+    "contributions": [
+      "Designed multi-region Kubernetes deployment framework.",
+      "Built Go-based control plane managing 500+ nodes."
+    ],
+    "technologies": ["Go", "Kubernetes", "AWS", "Terraform"]
+  }
+]
